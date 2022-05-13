@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(10, 10, 10, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  min-width: 50vw;
+  min-height: 50vh;
+  background-color: rgba(89, 206, 89, 0.5);
+  border-radius: 1rem;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.controls button {
+  padding: 0.5rem 2rem;
+  border-radius: 0.5rem;
+}
+#increment{
+  background-color: rgb(16, 135, 190);
+}
+#decrement{
+  background-color: rgb(57, 190, 16);
+}
+#reset{
+  background-color: rgb(216, 70, 12);
+}
